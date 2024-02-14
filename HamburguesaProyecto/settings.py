@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-b9%)!d=twny6k85s50=m9=tsds5*2er6zl&vzrkd168a6s^@&$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["http://localhost:5173","https://projectdjangobakfebrero-production.up.railway.app", "https://reactfrontpedidosfeb-production.up.railway.app"]
+ALLOWED_HOSTS = ["localhost:5173","projectdjangobakfebrero-production.up.railway.app", "reactfrontpedidosfeb-production.up.railway.app"]
 
 
 
@@ -71,7 +71,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://reactfrontpedidosfeb-production.up.railway.app","http://localhost:5173"
+    "reactfrontpedidosfeb-production.up.railway.app","localhost:5173"
 ]
 ROOT_URLCONF = 'HamburguesaProyecto.urls'
 
