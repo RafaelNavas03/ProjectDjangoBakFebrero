@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-b9%)!d=twny6k85s50=m9=tsds5*2er6zl&vzrkd168a6s^@&$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["projectdjangobakfebrero-production.up.railway.app"]
+ALLOWED_HOSTS = ["https://projectdjangobakfebrero-production.up.railway.app"]
 
 
 # Application definition
@@ -70,7 +70,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://reactfrontpedidosfeb-production.up.railway.app", 
+    "http://localhost:5173", 
 ]
 ROOT_URLCONF = 'HamburguesaProyecto.urls'
 
@@ -114,9 +114,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': '114ACcf2241aGA2B5FgfCDb2dF2e5Ed2',
-        'HOST': 'roundhouse.proxy.rlwy.net',
-        'PORT': '24280',
+        'PASSWORD': 'a6eG-3df5ceEAb-bEF-A1eAgBd1AAa-3',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': '22441',
         'OPTIONS': {
             'client_encoding': 'UTF8',
         },
